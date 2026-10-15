@@ -1,0 +1,36 @@
+{
+  "account": {
+    "login": 60677667,
+    "password": "your_password_here",
+    "server": "Finex-Demo"
+  },
+  "trading": {
+    "symbol": "XAUUSD",
+    "timeframe": "M5",
+    "lot_size": 0.01,
+    "magic_number": 12345
+  },
+  "indicators": {
+    "ema_fast": 5,
+    "ema_slow": 10,
+    "rsi_period": 14,
+    "rsi_oversold": 30,
+    "rsi_overbought": 70,
+    "macd_fast": 12,
+    "macd_slow": 26,
+    "macd_signal": 9
+  },
+  "risk_management": {
+    "stop_loss_pips": 75,
+    "take_profit_pips": 40,
+    "trailing_stop_pips": 20,
+    "max_daily_loss_usd": 5,
+    "min_win_probability": 0.80
+  },
+  "features": {
+    "trailing_stop_enabled": true,
+    "daily_loss_limit_enabled": true,
+    "auto_close_opposite_signal": true,
+    "logging_enabled": true
+  }
+}
